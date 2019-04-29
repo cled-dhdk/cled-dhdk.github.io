@@ -52,6 +52,7 @@ p {
   
 .hero-full-screen .top-bar {
     background: transparent;
+    height: 60px;
 }
 
 .hero-full-screen .top-bar .menu {
@@ -1190,19 +1191,21 @@ iframe {
 .active {
     color: #1779ba;
 }
-#mail-address {
-    font-size: 30px;
-    text-transform: lowercase;
-    color: #1779ba;
-}
-
-#mail-address:hover {
-    font-size: 30px;
-    text-transform: lowercase;
-    color: #97cadb;
-}
 
 .mail-address {
     text-transform: lowercase;
-    font-size: 23px;
+    font-size: 25px;
+}
+
+#unibo-logo {
+    position: relative;
+    bottom: -32px;
+    width: 120px;
+    height: 120px;
+}
+
+@media screen and (max-width: 800px) {
+    #unibo-logo {
+        display: none;
+    }
 }
