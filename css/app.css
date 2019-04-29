@@ -1190,3 +1190,25 @@ iframe {
 .active {
     color: #1779ba;
 }
+#mail-address {
+    font-size: 30px;
+    text-transform: lowercase;
+    color: #1779ba;
+}
+
+#mail-address:hover {
+    font-size: 30px;
+    text-transform: lowercase;
+    color: #97cadb;
+}
+#mail-address {
+    font-size: 30px;
+    text-transform: lowercase;
+    color: #1779ba;
+}
+
+#mail-address:hover {
+    font-size: 30px;
+    text-transform: lowercase;
+    color: #97cadb;
+}
