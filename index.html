@@ -17,25 +17,24 @@
     <div class="hero-full-screen" id="home">
         <div class="top-content-section">
             <div data-sticky-container class="sticky-container" id="toggle-bar">
-                <div data-sticky data-options="marginTop:0;" id="mobile-menu">
+                <div data-sticky data-options="marginTop:0;">
                     <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-                    <button class="menu-icon" type="button" data-toggle="example-menu"></button>
-                    <div class="title-bar-title">Menu</div>
+                        <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+                        <div class="title-bar-title">Menu</div>
+                    </div>
+                    <div class="top-bar" id="example-menu">
+                        <ul class="vertical medium-horizontal dropdown menu" id="list" data-responsive-menu="accordion medium-dropdown">
+                            <li><a href="#home" class="item active">Home</a></li>
+                            <li><a href="#about" class="item">About</a></li>
+                            <li><a href="#programma" class="item">Programma</a></li>
+                            <li><a href="#user" class="item">A chi ci rivolgiamo</a></li>
+                            <li><a href="#booking" class="item">Booking</a></li>
+                            <li><a href="#contatti" class="item">Contatti</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="top-bar" id="example-menu">
-                    <ul class="vertical medium-horizontal dropdown menu" id="list" data-responsive-menu="accordion medium-dropdown">
-                        <!--<img src="logo/unibo.png" id="unibo-logo">-->
-                        <li><a href="#home" class="item active">Home</a></li>
-                        <li><a href="#about" class="item">About</a></li>
-                        <li><a href="#programma" class="item">Programma</a></li>
-                        <li><a href="#news" class="item">A chi ci rivolgiamo</a></li>
-                        <li><a href="#booking" class="item">Booking</a></li>
-                        <li><a href="#contatti" class="item">Contatti</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>   
-    </div>
+            </div>  
+        </div>
 
         <div class="middle-content-section">
             <div class="grid-container">
@@ -50,9 +49,6 @@
                             </a>
                         </div>
                     </div>
-                    <div class="large-6 cell" id="homepage">
-                            
-                        </div>
                 </div>
             </div>
         </div>
@@ -64,205 +60,165 @@
                 </svg>
             </a>
         </div>
+
     </div>
 
     <div id="main-content-section" data-magellan-target="main-content-section">
         <div id="about">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-                <div class="large-12 cell margin-top-media">
-                    <h2 class="page-center-title margin-top">About</h2>
-                    <hr class="news-hr">
-                    <p class="page-center-text margin-top">Lo sviluppo di strumenti e metodologie di analisi computazionale del testo ha allargato in maniera decisiva il campo d’azione della critica letteraria.  Il workshop si propone di fornire agli studenti gli elementi per comprendere e praticare i fondamenti che costituiscono la base teorico-applicativa di strumenti legati al paradigma del <em>distant reading</em>, con particolare riguardo alla <strong>stilometria</strong>, alla <strong>sentiment analysis</strong> e all’ <strong>annotazione semantica</strong>. Saranno inoltre affrontate tematiche affini, quali il <strong>topic modeling</strong>, la <strong>network analysis</strong> e la <strong>data visualization</strong>. In particolare, gli strumenti previsti sono: <strong>Stylo R</strong>, pacchetto utilizzabile in ambiente R per effettuare analisi stilometriche, e <strong>Recogito</strong>, software che permette di realizzare mappe concettuali, annotare immagini e connettere ricerche personali ai dati disponibili online a partire dall’oggetto testuale.</p>
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-12 cell margin-top-media">
+                        <h2 class="title-000 margin-top">About</h2>
+                        <hr class="blue-hr">
+                        <p class="page-center-text margin-top margin-bottom">Lo sviluppo di strumenti e metodologie di analisi computazionale del testo ha allargato in maniera decisiva il campo d’azione della critica letteraria.  Il workshop si propone di fornire agli studenti gli elementi per comprendere e praticare i fondamenti che costituiscono la base teorico-applicativa di strumenti legati al paradigma del <em>distant reading</em>, con particolare riguardo alla <strong>stilometria</strong>, alla <strong>sentiment analysis</strong> e all’ <strong>annotazione semantica</strong>. Saranno inoltre affrontate tematiche affini, quali il <strong>topic modeling</strong>, la <strong>network analysis</strong> e la <strong>data visualization</strong>. In particolare, gli strumenti previsti sono: <strong>Stylo R</strong>, pacchetto utilizzabile in ambiente R per effettuare analisi stilometriche, e <strong>Recogito</strong>, software che permette di realizzare mappe concettuali, annotare immagini e connettere ricerche personali ai dati disponibili online a partire dall’oggetto testuale.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-                
-                    <div class="large-4 cell flip-card">    
-                        <div class="flip-card-inner">
-                            <div class="tag-container">
-                                <h3 class="tag date">Data</h3>
-                            </div>
-                            <div class="flip-card-front date">
-                                <p class="back-caption clear">
-                                <span class="back-span">27 maggio 2019</span>
-                                </br> 
-                                <span class="back-span">Dalle 9:00 alle 18:00</span> 
-                                </br>
-                                Nella prima parte della giornata si terrà un'introduzione teorica. Seguiranno nella seconda parte attività pratiche di laboratorio.</p>
-                            </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-4 cell">
+                        <div class="tag-container">
+                            <h3 class="tag date-backcolor">Data</h3>
                         </div>
-                    
-                </div>
+                        <div class="card date-backcolor">
+                            <span class="back-span">27 maggio 2019</span>
+                            <span class="back-span">Dalle 9:00 alle 18:00</span> 
+                            <p class="card-text">Nella prima parte della giornata si terrà un'introduzione teorica. Seguiranno nella seconda parte attività pratiche di laboratorio.</p>
+                        </div>    
+                    </div>
                 
-                    <div class="large-4 cell flip-card">    
-                        <div class="flip-card-inner">
-                            <div class="tag-container">
-                                <h3 class="tag location">Location</h3>
-                            </div>
-                            <div class="flip-card-front location">
-                                <p class="back-caption clear">
-                                <span class="back-span">Aula Affreschi</span>
-                                </br> 
-                                <span class="back-span">Via Zamboni 34, Bologna</span> 
-                                </br>
-                                Sede del Corso di Laurea "Digital Humanities and Digital Knowledge", Alma Mater Studiorum - Università di Bologna.
-                                </p>
-                            </div>
+                    <div class="large-4 cell">    
+                        <div class="tag-container">
+                            <h3 class="tag location-backcolor">Location</h3>
                         </div>
-                    
-                </div>
-                
-                    <div class="large-4 cell flip-card">    
-                        <div class="flip-card-inner">
-                            <div class="tag-container">
-                                <h3 class="tag organization">Organizzazione</h3>
-                            </div>
-                            <div class="flip-card-front organization">
-                                <p class="back-caption clear">
-                                <span class="back-span"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" class="flip-link" target="_blank" alt="DHDK website">Digital Humanities and Digital Knowledge Master's degree</a></span> 
-                                </br>
-                                <span class="back-span"><a href="https://www.unibo.it/it" class="flip-link" target="_blank" alt="Alma Mater Studiorum website">Alma Mater Studiorum</a></span> 
-                                </br>
-                                Progetto a cura della Prof.ssa Tomasi, della Prof.ssa Italia e di studenti di DHDK.
-                                </p>
-                            </div>
+                        <div class="card location-backcolor">
+                            <span class="back-span">Aula Affreschi</span>
+                            <span class="back-span">Via Zamboni 34, Bologna</span> 
+                            <p class="card-text">Sede del Corso di Laurea "Digital Humanities and Digital Knowledge", Alma Mater Studiorum - Università di Bologna.</p>
                         </div>
                     </div>
                 
-            </div>
-            <div class="grid-x grid-padding-x">
-                
-                    <div class="large-4 cell flip-card">    
-                        <div class="flip-card-inner">
-                            <div class="tag-container">
-                                <h3 class="tag">Speaker</h3>
-                            </div>
-                            <div class="flip-card-front">
-                                <p class="back-caption clear">
-                                <span class="back-span"><a href="https://www.unive.it/data/persone/13256131" class="flip-link" target="_blank" alt="Dott.ssa Tiziana Mancinelli website">Dott.ssa Tiziana Mancinelli</a></span> 
-                                </br>
-                                <strong>Università di Verona, Dipartimento di Lingue e Letterature straniere</strong>
-                                </br>
-                                E-mail: tiziana.mancinelli@gmail.com
-                                </p>
-                            </div>
+                    <div class="large-4 cell">    
+                        <div class="tag-container">
+                            <h3 class="tag organization-backcolor">Organizzazione</h3>
                         </div>
-                    
-                </div>
-                
-                    <div class="large-4 cell flip-card">    
-                        <div class="flip-card-inner">
-                            <div class="tag-container">
-                                <h3 class="tag">Speaker</h3>
-                            </div>
-                            <div class="flip-card-front">
-                                <p class="back-caption clear">
-                                <span class="back-span"><a href="http://www.gcdh.de/en/people/guests/simone-rebora" class="flip-link" target="_blank" alt="Dott. Simone Rebora website">Dott. Simone Rebora</a></span> 
-                                </br>
-                                <strong>Università di Verona e Università di Göttingen, Centre for Digital Humanities</strong>
-                                </br>
-                                E-mail: simone.rebora@phil.uni-goettingen.de 
-                                </p>
-                            </div>
+                        <div class="card organization-backcolor">
+                            <span class="back-span"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" class="flip-link" target="_blank" alt="DHDK website">Digital Humanities and Digital Knowledge Master's degree</a></span> 
+                            <span class="back-span"><a href="https://www.unibo.it/it" class="flip-link" target="_blank" alt="Alma Mater Studiorum website">Alma Mater Studiorum</a></span> 
+                            <p class="card-text">Progetto a cura della Prof.ssa Tomasi, della Prof.ssa Italia e di studenti di DHDK.</p> 
                         </div>
-                    
+                    </div>
                 </div>
-                
-                    <div class="large-4 cell flip-card">    
-                        <div class="flip-card-inner">
-                            <div class="tag-container">
-                                <h3 class="tag">Speaker</h3>
-                            </div>
-                            <div class="flip-card-front">
-                                <p class="back-caption clear">
-                                <span class="back-span"><a href="https://dh.fbk.eu/people/profile/sprugnoli" class="flip-link" target="_blank" alt="Dott.ssa Rachele Sprugnoli website">Dott.ssa Rachele Sprugnoli</a></span> 
-                                </br>
-                                <strong>Fondazione Bruno Kessler</strong>
-                                </br>
-                                E-mail: sprugnoli@fbk.eu
-                                </p>
-                            </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-4 cell">    
+                        <div class="tag-container">
+                            <h3 class="tag">Speaker</h3>
+                        </div>
+                        <div class="card speaker-backcolor">
+                            <p class="back-span"><a href="https://www.unive.it/data/persone/13256131" class="flip-link" target="_blank" alt="Dott.ssa Tiziana Mancinelli website">Dott.ssa Tiziana Mancinelli</a></p>
+                            <p><strong>Università 'Ca Foscari Venezia</strong></p>
+                            <p class="card-text">E-mail: tiziana.mancinelli@unive.it</p>
                         </div>
                     </div>
                 
+                    <div class="large-4 cell">    
+                        <div class="tag-container">
+                            <h3 class="tag">Speaker</h3>
+                        </div>
+                        <div class="card speaker-backcolor">
+                            <span class="back-span"><a href="http://www.dlls.univr.it/?ent=persona&id=19903" class="flip-link" target="_blank" alt="Dott. Simone Rebora website">Dott. Simone Rebora</a></span> 
+                            
+                            <strong>Università di Verona</strong>
+                            <p class="card-text">E-mail: simone.rebora@univr.it</p>
+                        </div>
+                    </div>
+                
+                    <div class="large-4 cell">    
+                        <div class="tag-container">
+                            <h3 class="tag">Speaker</h3>
+                        </div>
+                        <div class="card speaker-backcolor">
+                            <span class="back-span"><a href="https://www.unicatt.it/" class="flip-link" target="_blank" alt="https://docenti.unicatt.it/ppd2/it/#/it/docenti/75750/rachele-sprugnoli/profilo">Dott.ssa Rachele Sprugnoli</a></span> 
+                            <strong>Università Cattolica del Sacro Cuore, Milano</strong>
+                            <p class="card-text">E-mail: rachele.sprugnoli@unicatt.it</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        </div>
-
-            
-            
-
-        
-            
         </div>
     </div>
     
-
-        <div class="strip program-strip" id="programma">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <div class="large-12 cell margin-top">
-                        <h2 class="book-title">Programma</h2>
-                        <hr class="page-center-hr bigger-hr">
-                        <p class="book-p margin-top">Il workshop, della durata di una giornata, si svilupperà in due fasi principali: una prima fase di presentazione delle tematiche da un punto di vista teorico, arricchita dall’esposizione delle esperienze di lavoro dei relatori, con riferimento anche agli strumenti che verranno utilizzati, e una seconda fase, dedicata all’utilizzo da parte degli studenti, supervisionati dai relatori, degli strumenti introdotti in precedenza.</p>
-                    </div>
+    <div class="strip program-strip" id="programma">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-12 cell margin-top">
+                    <h2 class="fff-title">Programma</h2>
+                    <hr class="page-center-hr bigger-hr">
+                    <p class="clear page-center-text margin-top margin-bottom">Il workshop, della durata di una giornata, si svilupperà in due fasi principali: una prima fase di presentazione delle tematiche da un punto di vista teorico, arricchita dall’esposizione delle esperienze di lavoro dei relatori, con riferimento anche agli strumenti che verranno utilizzati, e una seconda fase, dedicata all’utilizzo da parte degli studenti, supervisionati dai relatori, degli strumenti introdotti in precedenza. In particolare, i temi della Stilometria, Network analysis, Annotazione e spatial analysis saranno affrontati sia a livello teorico sia attraverso attività di carattere pratico.
+                    Inoltre, si chiederà ai partecipanti del workshop di organizzarsi in "gruppi di discussione", i quali, nella parte conclusiva dell'evento, avranno l'opportunità di riportare impressioni, commenti, problemi aperti e potenzialità di una delle metodologie presentate.</p>
                 </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="large-4 cell">
-                        <p><img src="icon/opening.png" class="date-place-icon" alt=""></p>
-                        <h3 class="program-icon-sub clear">Opening</h3>
-                        <p class="program-icon-caption clear"><span class="program-icon-hour">9:00 - 9:30</span> Benvenuto alla Prof.ssa Tiziana Mancinelli, alla Dott.ssa Rachele Sprugnoli e al Dott. Simone Rebora da parte della Prof.ssa Francesca Tomasi, coordinatrice del corso di Laurea Digital Humanities and Digital Knowledge (DHDK), e introduzione al workshop da parte della Prof.ssa Paola Italia.</p>
-                        </p>
-                    </div>
-                    <div class="large-4 cell">
-                        <p><img src="icon/intro.png" class="date-place-icon" alt=""></p>
-                        <h3 class="program-icon-sub clear">Introduzione</h3>
-                        <p class="program-icon-caption clear"><span class="program-icon-hour">9:30 - 11:00</span> Introduzione alle tematiche di distant reading e sentiment analysis in relazione allo studio di testi letterari e introduzione a specifiche tecniche e strumenti computazionali di analisi testuale.</p>
-                        </p>
-                    </div>
-                    <div class="large-4 cell">
-                        <p><img src="icon/coffee.png" class="date-place-icon" alt=""></p>
-                        <h3 class="program-icon-sub clear">Coffee break</h3>
-                        <p class="program-icon-caption clear"><span class="program-icon-hour">11:00 - 11:30</span></p>
-                        </p>
-                    </div>
-                    <div class="large-4 cell">
-                        <p><img src="icon/lab.png" class="date-place-icon" alt=""></p>
-                        <h3 class="program-icon-sub clear">Laboratorio - parte 1</h3>
-                        <p class="program-icon-caption clear"><span class="program-icon-hour">11:30 - 13:00</span> Prima parte di laboratorio pratico su distant reading e sentiment analysis a cura della Prof.ssa Mancinelli, della Dott.ssa Sprugnoli e del Dott. Rebora.</p>
-                        </p>
-                    </div>
-                    <div class="large-4 cell">
-                        <p><img src="icon/food.png" class="date-place-icon" alt=""></p>
-                        <h3 class="program-icon-sub clear">Pausa pranzo</h3>
-                        <p class="program-icon-caption clear"><span class="program-icon-hour">13:00 - 14:30</span></p>
-                        </p>
-                    </div>
-                    <div class="large-4 cell">
-                        <p><img src="icon/lab.png" class="date-place-icon" alt=""></p>
-                        <h3 class="program-icon-sub clear">Laboratorio - Parte 2</h3>
-                        <p class="program-icon-caption clear"><span class="program-icon-hour">14:30 - 18:00</span> Seconda parte di laboratorio pratico su distant reading e sentiment analysis a cura della Prof.ssa Mancinelli, della Dott.ssa Sprugnoli e del Dott. Rebora.</p>
-                        </p>
-                    </div>
-                    <div class="large-4 cell">
-                        <p><img src="icon/conclusioni.png" class="date-place-icon" alt=""></p>
-                        <h3 class="program-icon-sub clear">Conclusioni</h3>
-                        <p class="program-icon-caption clear"><span class="program-icon-hour">18:00 - 18:30</span> Conclusione dei lavori e dibattito con i relatori.</p>
-                        </p>
-                    </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="large-4 cell">
+                    <p><img src="icon/opening.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Introduzione</h3>
+                    <h4 class="center-subtitle">9:00 - 9:30</h4>
+                    </p>
                 </div>
-
+                <div class="large-4 cell">
+                    <p><img src="icon/distant-reading.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Cos'è il distant reading</h3>
+                    <h4 class="center-subtitle">9:30 - 10:00</h4>                        
+                </div>
+                <div class="large-4 cell">
+                    <p><img src="icon/stylo.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Stilometria</h3>
+                    <h4 class="center-subtitle">10:00 - 11:00</h4>                        
+                </div>
+                <div class="large-4 cell">
+                    <p><img src="icon/coffee.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Pausa</h3>
+                    <h4 class="center-subtitle">11:00 - 11:15</h4>                        
+                </div>
+                <div class="large-4 cell">
+                    <p><img src="icon/gephi.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Network analysis</h3>
+                    <h4 class="center-subtitle">11:15 - 12:15</h4>                        
+                </div>
+                <div class="large-4 cell">
+                    <p><img src="icon/lda.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Topic modeling</h3>
+                    <h4 class="center-subtitle">12:15 - 13:15</h4>                        
+                </div>
+                <div class="large-4 cell">
+                    <p><img src="icon/food.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Pausa pranzo</h3>
+                    <h4 class="center-subtitle">13:15 - 14:30</h4>                        
+                </div>
+                <div class="large-4 cell">
+                    <p><img src="icon/recogito.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Annotazione e spatial analysis</h3>
+                    <h4 class="center-subtitle">14:30 - 16:30</h4>                        
+                </div>
+                <div class="large-4 cell">
+                    <p><img src="icon/coffee.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Pausa</h3>
+                    <h4 class="center-subtitle">16:00 - 16:30</h4>                        
+                </div>
+                <div class="large-4 cell">
+                    <p><img src="icon/intro.png" class="program-icon" alt=""></p>
+                    <h3 class="sub-icon clear">Presentazione gruppi e discussione</h3>
+                    <h4 class="center-subtitle">16:45 - 17:30</h4>                        
+                </div>
             </div>
         </div>
     </div>
-    <div class="strip news-strip" id="news">
+
+    <div class="strip user-strip" id="user">
         <div class="grid-container">
             <div class="grid-x grid-padding-x">
                 <div class="large-12 cell margin-top-media">
-                    <h2 class="page-center-title margin-top">A chi ci rivolgiamo</h2>
-                    <hr class="news-hr bigger-hr">
-                    <p class="page-center-text margin-top">Il workshop è aperto a tutti e, in special modo, si rivolge agli studenti appartenenti al <a href="http://www.ficlit.unibo.it/it" id="mail-policy" target="_blank" alt="link al sito web del dipartimento di filologia classica e italianistica - ficlit">Dipartimento di Filologia Classica e Italianistica</a> (FICLIT). Le attività saranno svolte in italiano o in lingua inglese, a seconda dei partecipanti che si registreranno. Si prevede che gli studenti, alla fine dei lavori, abbiano assimilato nozioni tecnico-pratiche che li rendano capaci di utilizzare gli strumenti presentati nella realizzazione di progetti che prevedano un approccio innovativo e creativo alla critica testuale e letteraria.</p>
+                    <h2 class="title-000 margin-top">A chi ci rivolgiamo</h2>
+                    <hr class="blue-hr bigger-hr">
+                    <p class="page-center-text margin-top">Il workshop è aperto a tutti e, in special modo, si rivolge agli studenti appartenenti al <a href="http://www.ficlit.unibo.it/it" class="web-link" target="_blank" alt="link al sito web del dipartimento di filologia classica e italianistica - ficlit">Dipartimento di Filologia Classica e Italianistica</a> (FICLIT). Le attività saranno svolte in italiano o in lingua inglese, a seconda dei partecipanti che si registreranno. Si prevede che gli studenti, alla fine dei lavori, abbiano assimilato nozioni tecnico-pratiche che li rendano capaci di utilizzare gli strumenti presentati nella realizzazione di progetti che prevedano un approccio innovativo e creativo alla critica testuale e letteraria.</p>
                 </div>
             </div>
             <div class="grid-x grid-padding-x">
@@ -278,9 +234,7 @@
                                 <h3 class="speaker-title">Studenti FICLIT</h3>
                             </div>
                         </div>
-                        <!-- /.card-profile-stats-container -->
                     </div>
-                    <!-- /.card-profile-stats -->
                 </div>
                 <div class="large-4 cell margin-top">
                     <div class="grid-x grid-padding-x">
@@ -294,9 +248,7 @@
                                 <h3 class="speaker-title">Dottorandi ed esperti</h3>
                             </div>
                         </div>
-                        <!-- /.card-profile-stats-container -->
                     </div>
-                    <!-- /.card-profile-stats -->
                 </div>
                 <div class="large-4 cell margin-top">
                     <div class="grid-x grid-padding-x">
@@ -310,64 +262,66 @@
                                 <h3 class="speaker-title">Interessati al settore</h3>
                             </div>
                         </div>
-                        <!-- /.card-profile-stats-container -->
                     </div>
-                    <!-- /.card-profile-stats -->
                 </div>
             </div>
         </div>
 
-        <div class="strip book-strip" id="booking">
+        <div class="strip date-backcolor" id="booking">
             <div class="grid-container">
                 <div class="grid-x grid-padding-x">
                     <div class="large-12 cell margin-top">
-                        <h2 class="book-title">Booking</h2>
+                        <h2 class="fff-title">Booking</h2>
                         <hr class="page-center-hr">
-                        
-                           
                         <div class="grid-x grid-padding-x">
                             <div class="large-3 cell"></div>
                             <div class="large-6 cell">
-                                <h3 class="program-icon-sub clear half-margin-top">Le iscrizioni si chiuderanno</h3>
+                                <h3 class="sub-icon clear half-margin-top">Le iscrizioni si chiuderanno</h3>
                                 <div id="clockdiv">
                                     <div class="circle">
-                                        <span class="days specific-circle"></span>
-                                        <div class="smalltext">Giorni</div>
+                                        <span class="specific-circle"></span>
+                                        <div class="small-text">Giorni</div>
                                     </div>
                                     <div class="circle">
-                                        <span class="hours specific-circle"></span>
-                                        <div class="smalltext">Ore</div>
+                                        <span class="specific-circle"></span>
+                                        <div class="small-text">Ore</div>
                                     </div>
                                     <div class="circle">
-                                        <span class="minutes specific-circle"></span>
-                                        <div class="smalltext">Minuti</div>
+                                        <span class="specific-circle"></span>
+                                        <div class="small-text">Minuti</div>
                                     </div>
                                     <div class="circle">
-                                        <span class="seconds specific-circle"></span>
-                                        <div class="smalltext">Secondi</div>
+                                        <span class="specific-circle"></span>
+                                        <div class="small-text">Secondi</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="large-3 cell"></div>
                         </div>
                             
-                        <p class="book-p margin-top">Per adattare i tutorial mostrati durante il workshop alle esigenze del pubblico, abbiamo preparato un questionario per conoscere in anticipo le competenze dei partecipanti da compilare prima dell'iscrizione.</p>
-                        <p class="book-p margin-bottom">Compila il questionario e iscriviti senza temere per la tua privacy! Per noi la privacy è molto importante e ci impegnamo a non divulgare i tuoi dati. Per ulteriori informazioni è possibile consultare la nostra <span id="privacy-policy" onclick="privacy()">informativa sulla privacy</span>.</p>
-                        <p id="privacy-info"></p>
-                        <button class="button large full-screen-button book-button" onclick="goToQuestionnaire()">Compila il questionario e iscriviti</button>
+                        <p class="page-center-text clear margin-top">Per adattare i tutorial mostrati durante il workshop alle esigenze del pubblico, abbiamo preparato un questionario per conoscere in anticipo le competenze dei partecipanti da compilare prima dell'iscrizione.</p>
+                        <p class="page-center-text clear margin-bottom">Compila il questionario, iscriviti e contattaci senza temere per la tua privacy! Per noi la privacy è molto importante e ci impegnamo a non divulgare i tuoi dati. Per ulteriori informazioni è possibile consultare la nostra <span id="privacy-policy">informativa sulla privacy</span>.</p>
+                        <div class="clear" id="privacy-info">
+                            <h3>Informativa sulla privacy</h3>
+                            <p>La tua privacy è molto importante per noi. Di conseguenza, abbiamo sviluppato questa Politica per farvi capire come raccogliamo, usiamo, comunichiamo e divulghiamo e facciamo uso di informazioni personali. Proteggiamo le informazioni personali mediante ragionevoli misure di sicurezza contro la perdita o il furto, nonché l'accesso non autorizzato, la divulgazione, la copia, l'uso o la modifica.</p>
+                        </div>
+                        <button class="button large full-screen-button book-button margin-bottom" onclick="goToQuestionnaire()">Compila il questionario e iscriviti</button>
                     </div>
                 </div>
             </div>
-
+        
             <div id="main-content-section" data-magellan-target="main-content-section" class="contact-strip">
                 <div class="grid-container" id="contatti">
                     <div class="grid-x grid-padding-x">
                         <div class="large-12 cell">
-                            <h2 class="page-center-title margin-top">Contatti</h2>
-                            <hr class="news-hr">
+                            <h2 class="title-000 margin-top">Contatti</h2>
+                            <hr class="blue-hr">
                             <p class="page-center-text margin-top">Restiamo a tua disposizione per qualsiasi richiesta. Puoi contattarci in qualsiasi momento lasciandoci un messaggio, noi ci impegneremo a fornirti risposte accurate. In più, ci impegneremo a non divulgare i tuoi dati.</p>
-                            <p class="page-center-text margin-bottom">Lasciaci un messaggio senza temere per la tua privacy! Per noi la privacy è molto importante e ci impegnamo a non divulgare i tuoi dati. Per ulteriori informazioni è possibile consultare la nostra <span id="mail-policy" onclick="mailPolicy()">informativa sulla privacy</span>.</p>
-                            <p id="mail-info" class="margin-bottom"></p>
+                            <p class="page-center-text margin-bottom">Lasciaci un messaggio senza temere per la tua privacy! Per noi la privacy è molto importante e ci impegnamo a non divulgare i tuoi dati. Per ulteriori informazioni è possibile consultare la nostra <span id="mail-info-click">informativa sulla privacy</span>.</p>
+                            <div id="mail-info">
+                                <h3>Informativa sulla privacy</h3>
+                                <p>La tua privacy è molto importante per noi. Di conseguenza, abbiamo sviluppato questa Politica per farvi capire come raccogliamo, usiamo, comunichiamo e divulghiamo e facciamo uso di informazioni personali. Proteggiamo le informazioni personali mediante ragionevoli misure di sicurezza contro la perdita o il furto, nonché l'accesso non autorizzato, la divulgazione, la copia, l'uso o la modifica.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -391,7 +345,7 @@
                         </div>
                     </div>
 
-                    <div class="strip copyright-strip">
+                    <div class="strip organization-backcolor">
                         <div class="grid-x grid-padding-x">
                             <div class="large-12 cell">
                                 <h2 class="copyright-title">&copy Copyright 2019 La critica letteraria nell'era del digitale workshop</h2>
@@ -400,19 +354,18 @@
                     </div>
                 </div>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-            <script src="js/smooth-scroll.js"></script>
-            <script src="js/vendor/jquery.js"></script>
-            <script src="js/vendor/what-input.js"></script>
-            <script src="js/vendor/foundation.js"></script>
-            <script src="js/app.js"></script>
-            <script src="js/countdown.js"></script>
-            <script src="js/scroll-bar.js"></script>
-            <script src="js/questionnaire-link.js"></script>
-            <script src="js/privacy.js"></script>
-            <script src="js/mail-policy.js"></script>
-            <!--<script src="js/active.js"></script>-->
-            <script src="js/scroll-active.js"></script>
-</body>
-
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src="js/scroll-bar.js"></script>
+        <script src="js/questionnaire-link.js"></script>
+        <script src="js/privacy.js"></script>
+        <script src="js/mail-policy.js"></script>
+        <script src="js/scroll-active.js"></script>
+    </body>
 </html>
