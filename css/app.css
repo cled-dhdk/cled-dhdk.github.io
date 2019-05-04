@@ -322,9 +322,19 @@ p {
 .full-screen-p {
     text-transform: uppercase;
     text-align: left;
-    font-size: 16px;
+    font-size: 21px;
     letter-spacing: 2px;
     color: #323232;
+}
+
+@media screen and (max-width: 800px) {
+    .full-screen-p {
+        text-trasform: uppercase;
+        text-align: left;
+	font-size: 16px;
+        letter-spacing: 2px;
+        color: #323232;
+    }
 }
 
 .hero-full-screen .bottom-content-section {
