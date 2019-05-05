@@ -98,6 +98,14 @@ p {
     text-align: justify;
 }
 
+@media screen and (max-width: 800px) {
+    .page-padding-text {
+        text-align: justify;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+    }
+}
+
 /* STRIP */
 .strip {
     background-color: #fff;
@@ -316,7 +324,7 @@ p {
 
 @media screen and (width: 375px) and (height: 667px) {
     .centered-vertically {
-        padding: 70px 0px;
+        padding: 90px 0px;
     }
 }
 
