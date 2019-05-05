@@ -429,11 +429,9 @@ p {
     fill: #97cadb;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     .hero-full-screen .bottom-content-section svg {
-        height: 2.75rem;
-        width: 3.75rem;
-        fill: #cccccc;
+        display: none;
     }
 }
 
