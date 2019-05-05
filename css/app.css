@@ -149,8 +149,7 @@ p {
 
 .hero-full-screen .top-content-section {
     width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
 }
 
 [data-sticky] {
@@ -293,11 +292,51 @@ p {
     margin-top: 60px;
 }
 
-@media screen and (max-width: 374px) {
+.centered-vertically {
+    padding: 115px 0;
+}
+
+@media screen and (min-width: 319px) and (max-width: 361px) {
+    .centered-vertically {
+        padding: 44px 0px;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 374px) {
+    .centered-vertically {
+        padding: 144px 0px;
+    }
+}
+
+@media screen and (width: 375px) {
+    .centered-vertically {
+        padding: 159px 0px;
+    }
+}
+
+@media screen and (width: 375px) and (height: 667px) {
+    .centered-vertically {
+        padding: 90px 0px;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 414px) {
+    .centered-vertically {
+        padding: 145px 0px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .centered-vertically {
+        padding: 328px 0px;
+    }
+}
+
+/*@media screen and (max-width: 374px) {
     #homepage {
         margin-top: -190px;
     }
-}
+}*/
 
 .full-screen-title {
     font-family: 'Roboto', sans-serif;
@@ -392,6 +431,10 @@ p {
 
 
 /* ABOUT SECTION */
+.about-strip {
+    padding-top: 1px;
+}
+
 .card {
     padding: 30px;
     width: 100%;
@@ -476,8 +519,8 @@ p {
 
 /* PROGRAMMA SECTION */
 .program-strip {
+    padding-bottom: 64.57px;
     background-color: #02457a;
-    padding-bottom: 60px;
 }
 
 .program-icon {
@@ -510,6 +553,8 @@ p {
 
 /* A CHI CI RIVOLGIAMO SECTION */
 .user-strip {
+    padding-top: 1px;
+    padding-bottom: 64.57px;
     background-color: #fff;
 }
 
@@ -562,6 +607,12 @@ p {
 }
 
 /* BOOKING SECTION */
+.booking-strip {
+    padding-top: 1px;
+    padding-bottom: 64.57px;
+    background-color: #001b48;
+}
+
 #clockdiv{
     display: block;
     margin: 0 auto;
@@ -636,6 +687,7 @@ p {
 
 /* CONTATTI SECTION */
 .contact-strip {
+    padding-top: 1px;
     background-color:#f8f9fb;
 }
 
