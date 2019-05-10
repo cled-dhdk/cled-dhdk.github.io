@@ -289,6 +289,107 @@ p {
     }
 }
 
+.topbar-center-logo {
+    background: #2c3840;
+}
+  
+.topbar-center-logo .menu {
+    background: #2c3840;
+}
+
+.topbar-center-logo .menu a {
+    color: #323232;
+}
+
+.topbar-center-logo .top-bar-center {
+-webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .topbar-center-logo .top-bar-center {
+        display: none;
+    }
+}
+
+.topbar-center-logo-mobile {
+    background: transparent;
+}
+
+.topbar-center-logo-mobile .menu-icon {
+    vertical-align: text-top;
+}
+
+
+#logo {
+    margin-left: 10px;
+    margin-top: 72px;
+}
+
+@media screen and (max-width: 767px) {
+    #logo {
+        width: 70%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (width: 768px) {
+    #logo {
+        width: 90%;
+    }
+}
+
+@media screen and (width: 1024px) {
+    #logo {
+        width: 55%;
+    }
+}
+
+@media screen and (width: 768px) {
+    .hero-full-screen .top-bar .menu a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .topbar-center-logo-mobile .menu-icon {
+        vertical-align: text-top;
+        margin-top: -8%;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .full-screen-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        text-align: left;
+        text-transform: uppercase;
+        line-height: 47px;
+        color: #323232;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (width: 360px){
+    .full-screen-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        text-align: left;
+        text-transform: uppercase;
+        line-height: 47px;
+        color: #323232;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .delete {
+        display: none;
+    }
+}
 
 /* HOMEPAGE */
 .hero-full-screen .middle-content-section {
@@ -761,19 +862,6 @@ iframe {
 .active {
     color: #1779ba;
 }
-
-/*#unibo-logo {
-    position: relative;
-    bottom: -32px;
-    width: 120px;
-    height: 120px;
-}
-
-@media screen and (max-width: 800px) {
-#unibo-logo {
-    display: none;
-}
-}*/
 
 .clear {
 color: #fefefe;
