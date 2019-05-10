@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <div class="hero-full-screen" id="home">
+     <div class="hero-full-screen" id="home">
         <div class="top-content-section">
-            <div data-sticky-container class="sticky-container" id="toggle-bar">
+            <!--<div data-sticky-container class="sticky-container" id="toggle-bar">
                 <div data-sticky data-options="marginTop:0;">
                     <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
                         <button class="menu-icon" type="button" data-toggle="example-menu"></button>
@@ -33,7 +33,30 @@
                         </ul>
                     </div>
                 </div>
-            </div>  
+            </div>-->
+            <div class="title-bar topbar-center-logo-mobile" id="toggle-bar" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
+                <div class="title-bar-left">
+                <div class="title-bar-title"><a href="https://www.unibo.it/it" alt="Link al sito Unibo" target="_blank"><img src="logo/logo-unibo.png" id="logo" alt=""/></a></div>
+                </div>
+                <div class="title-bar-right">
+                    <button class="menu-icon" id="hamburger" type="button" data-toggle="topbar-center-logo"></button>
+                </div>
+            </div>
+            <div class="top-bar topbar-center-logo" id="topbar-center-logo">
+                <div class="top-bar-left">
+                    <a href="https://www.unibo.it/it" id="logo-to-delete" alt="Link al sito Unibo" target="_blank"><img src="logo/logo-unibo.png" class="margin-top delete" id="logo" alt=""/></a>
+                </div>
+                <div class="top-bar-right" id="menu-to-active">
+                    <ul class="menu vertical medium-horizontal">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#programma">Programma</a></li>
+                        <li><a href="#user">A chi ci rivolgiamo</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                        <li><a href="#contatti">Contatti</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div class="middle-content-section">
