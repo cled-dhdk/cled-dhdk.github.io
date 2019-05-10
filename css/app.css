@@ -279,6 +279,11 @@ p {
     font-weight: bold;
 }
 
+.hero-full-screen .top-bar .menu a:hover {
+    color:#02457a;
+
+}
+
 @media screen and (max-width: 767px) {
     .hero-full-screen .top-bar .menu {
         display: block;
